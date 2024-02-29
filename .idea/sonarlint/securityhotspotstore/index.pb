@@ -29,8 +29,6 @@ x
 Happ/src/main/java/com/example/practicaandroid/ui/view/ListadoFragment.kt,9\9\9981b7d8ea347ddb71800c3c926c0f08640913de
 Å
 Q.idea/sonarlint/securityhotspotstore/0/d/0d8b8284d57865eed441969a737f78fe04d651a4,6\c\6cc61881c68d7e1b1ddfbcea9413177cf9db86ed
-Å
-Q.idea/sonarlint/securityhotspotstore/0/2/02166ff54504b8d1f76bada6d05dcc4f6d42eff0,1\1\114c99706b5065f2d5357d55115c1f7342ad6134
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
 S
@@ -88,8 +86,6 @@ w
 G.idea/sonarlint/issuestore/c/f/cf1e2dda5f2dd120ee1d09816e973d56e828d037,4\2\420cf7f84acc350b157371ba6c11beae4e5cad76
 D
 app/build.gradle.kts,d\2\d2a4383452aad84a18429a5844d31330a012a9e6
-Å
-Q.idea/sonarlint/securityhotspotstore/8/8/88d5c9cd996e4a72e3dd49b29f50e4a26362c7eb,f\c\fc5461fb1fd24389be03b0e071212b147c54ec73
 Å
 Q.idea/sonarlint/securityhotspotstore/e/2/e2726cf11af63c340e1c9976632104d6760fbe63,8\a\8a22e3d91b46c2a5da424830ea19ced41dc4b3a8
 p
@@ -179,19 +175,13 @@ G.idea/sonarlint/issuestore/4/c/4ce5ee7c1651ade79a781bf6763e89453ddf66ce,a\f\af
 Å
 Q.idea/sonarlint/securityhotspotstore/d/2/d2a4383452aad84a18429a5844d31330a012a9e6,7\f\7fcac164c7a46b8fc6411ea93226c884af6044db
 Å
-Q.idea/sonarlint/securityhotspotstore/d/0/d0ca2f5187f7f19a10f7b0bd3149aa7aed459ec0,a\5\a53df91d854bd935aa7df2eb6faa7145730be2bb
-Å
 Q.idea/sonarlint/securityhotspotstore/d/b/dbcff70658daf80b53ce624f6adcaa529df5ed8d,e\c\ec4317fc3093e8c354ef226260d7fd566c3957fb
-Å
-Q.idea/sonarlint/securityhotspotstore/d/a/dabeba0f07310f1799c3a4290c8057f27a51fef3,9\3\9363df325beeb10f7b15f26ccb94c100276011f8
 w
 G.idea/sonarlint/issuestore/5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9,f\7\f7819ea138c33fec28e7e536cb2de34db38fc121
 Å
 Q.idea/sonarlint/securityhotspotstore/7/4/749edfcc96398253e5b3416184e95c46621da850,a\2\a23c5826b9e43ac800045078039410ea3817eb39
 Å
 Q.idea/sonarlint/securityhotspotstore/f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e,2\a\2a357145b04aeee0545d8bc616c6d89a975ff771
-Å
-Q.idea/sonarlint/securityhotspotstore/8/1/812654024e373631809ff6374bf222f5f4afdff0,2\5\258c849ba81fbb9c1f146d141fdb19fc7ffbeb40
 w
 G.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0,f\0\f0e0f9cec86fe4b939ae22be5264c758801eb28f
 Å
@@ -2444,8 +2434,6 @@ Q.idea/sonarlint/securityhotspotstore/c/d/cdd49a77c4815d7f1a89a59ef16315cd1690a1
 Q.idea/sonarlint/securityhotspotstore/c/0/c065f248c3168f5e1908356d364c1ecf93712d45,7\2\72963d46568482a5e71680af33425b88e0c4e00e
 Å
 Q.idea/sonarlint/securityhotspotstore/c/d/cdf73b4773c619e09b72c9a60610658a9eb49d92,d\2\d243078c98eedd54b093d53dfc120bc677afe887
-v
-Fapp/src/main/java/com/example/practicaandroid/data/model/FacturaDao.kt,a\f\af89866d74897a9bd96352bc38601e2eca50489b
 ~
 Napp/src/main/java/com/example/practicaandroid/data/model/DetallesFacturaDao.kt,9\6\96cdb5c1acda4ecc31608bae9400b75c455ae99b
 }

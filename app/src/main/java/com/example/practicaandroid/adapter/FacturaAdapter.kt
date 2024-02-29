@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.practicaandroid.R
 import com.example.practicaandroid.data.model.DetallesFactura
 
-class FacturaAdapter(private val facturaList: List<DetallesFactura>) : RecyclerView.Adapter<FacturaViewHolder>() {
+class FacturaAdapter(val facturaList: MutableList<DetallesFactura>) : RecyclerView.Adapter<FacturaViewHolder>() {
 
     override fun onBindViewHolder(holder: FacturaViewHolder, position: Int) {
         val item = facturaList[position]
