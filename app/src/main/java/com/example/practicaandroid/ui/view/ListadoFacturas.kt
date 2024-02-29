@@ -2,9 +2,11 @@ package com.example.practicaandroid.ui.view
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
+import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.practicaandroid.adapter.FacturaAdapter
@@ -13,6 +15,7 @@ import com.example.practicaandroid.data.model.DetallesFacturaApp
 import com.example.practicaandroid.databinding.ActivityListadoFacturasBinding
 import com.example.practicaandroid.databinding.ActivityMainBinding
 import com.example.practicaandroid.ui.viewModel.FacturaViewModel
+import kotlinx.coroutines.launch
 
 class ListadoFacturas : AppCompatActivity() {
     private lateinit var binding: ActivityListadoFacturasBinding
@@ -30,7 +33,10 @@ class ListadoFacturas : AppCompatActivity() {
             initRecyclerView(it)
         })
 
-        val detallesFactura = app.room.detallesFacturaDao().getAllFacturas()
+        lifecycleScope.launch {
+            val detallesFactura = app.room.detallesFacturaDao().getAllFacturas()
+            Log.d("", "onCreate: ${detallesFactura}")
+        }
 
         binding.consumoButton.setOnClickListener{
             val intent = Intent(this, MainActivity::class.java)

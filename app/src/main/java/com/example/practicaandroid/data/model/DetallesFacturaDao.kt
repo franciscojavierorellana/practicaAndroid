@@ -9,7 +9,7 @@ import androidx.room.Query
 @Dao
 interface DetallesFacturaDao {
     @Query("SELECT * FROM DetallesFactura")
-    suspend fun getAllFacturas(): LiveData<List<DetallesFactura>>
+    fun getAllFacturas(): LiveData<List<DetallesFactura>>
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertFacturas(facturas: List<DetallesFactura>)
     @Query("DELETE FROM DetallesFactura")
