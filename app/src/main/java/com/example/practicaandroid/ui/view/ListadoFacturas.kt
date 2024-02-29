@@ -1,5 +1,6 @@
 package com.example.practicaandroid.ui.view
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
@@ -21,11 +22,21 @@ class ListadoFacturas : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityListadoFacturasBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        facturaViewModel.onCreate()
         initRecyclerView(emptyList())
         facturaViewModel.detallesFacturaModel.observe(this, Observer {
+            facturaViewModel.onCreate()
             initRecyclerView(it)
         })
+
+        binding.consumoButton.setOnClickListener{
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.filtroButton.setOnClickListener{
+            val intent = Intent(this, FiltrarActivity::class.java)
+            startActivity(intent)
+        }
 
     }
 
@@ -36,6 +47,5 @@ class ListadoFacturas : AppCompatActivity() {
         binding.rvFacturasList.layoutManager = manager
         binding.rvFacturasList.adapter = adapter
         binding.rvFacturasList.addItemDecoration(decoration)
-        //binding.viewRoot.setOnClickListener{FacturaActivity.facturaViewModel.detallesFacturaModel}
     }
 }

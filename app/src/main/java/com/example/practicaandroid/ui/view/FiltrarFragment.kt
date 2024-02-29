@@ -19,7 +19,7 @@ class FiltrarFragment : Fragment() {
     var dpFecha: DatePicker? = null
     var dpFechaFin: DatePicker? = null
 
-    @RequiresApi(Build.VERSION_CODES.O)
+    /*@RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = FiltrarFacturaBinding.inflate(layoutInflater)
@@ -67,5 +67,5 @@ class FiltrarFragment : Fragment() {
     fun mostrarCalendario(view: View) {
         dpFecha?.visibility = View.VISIBLE
         dpFechaFin?.visibility = View.VISIBLE
-    }
+    }*/
 }

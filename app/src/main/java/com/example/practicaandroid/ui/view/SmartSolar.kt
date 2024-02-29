@@ -1,5 +1,6 @@
 package com.example.practicaandroid.ui.view
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.practicaandroid.databinding.ActivitySmartSolarBinding
@@ -21,5 +22,10 @@ class SmartSolar : AppCompatActivity() {
 
         binding.viewPager.adapter = fragmentAdapter
         binding.tabs.setupWithViewPager(binding.viewPager)
+
+        binding.atrasButton.setOnClickListener{
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

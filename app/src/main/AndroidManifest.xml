@@ -20,6 +20,12 @@
             android:label="@string/title_activity_smart_solar"
             android:theme="@style/Theme.PracticaAndroid.NoActionBar" />
         <activity
+            android:name=".ui.view.ListadoFacturas"
+            android:exported="false"/>
+        <activity
+            android:name=".ui.view.FiltrarActivity"
+            android:exported="false"/>
+        <activity
             android:name=".ui.view.MainActivity"
             android:exported="true">
             <intent-filter>
