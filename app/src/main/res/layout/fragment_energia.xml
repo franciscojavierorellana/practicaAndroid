@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.view.ui.main.PlaceholderFragment"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="400sp"
+        android:layout_height="300sp"
+        android:src="@drawable/ic_gestiones_icon"
+        android:layout_gravity="center"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="150sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/energia"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="30sp"
+        android:layout_marginTop="70sp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

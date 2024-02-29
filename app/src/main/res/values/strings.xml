@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">PracticaAndroid</string>
+    <string name="boton_consumo">Consumo</string>
+    <string name="titulo_factura">Facturas</string>
+    <string name="filtrar_facturas">Filtrar facturas</string>
+    <string name="fecha_emision">Con fecha de emisión</string>
+    <string name="fecha_inicio">Desde:</string>
+    <string name="fecha_fin">Hasta:</string>
+    <string name="boton_fecha">dia/mes/año</string>
+    <string name="importe_slider">Por un importe</string>
+    <string name="estado_texto">Por estado</string>
+    <string name="pagadas_texto">Pagadas</string>
+    <string name="anuladas_texto">Anuladas</string>
+    <string name="cuotaFija_texto">Cuota Fija</string>
+    <string name="pendientePago_texto">Pendientes de pago</string>
+    <string name="planPago_texto">Plan de pago</string>
+    <string name="aplicar_boton">Aplicar</string>
+    <string name="eliminarFiltros_boton">Eliminar filtros</string>
+    <string name="title_activity_smart_solar">Smart Solar</string>
+    <string name="tab_text_miInstalacion">Mi instalación</string>
+    <string name="tab_text_energia">Energía</string>
+    <string name="tab_text_detalles">Detalles</string>
+    <string name="atras_smart_solar">Atrás</string>
+    <string name="miInstalacion_text">Aquí tienes los datos de tu instalación fotovoltaica en tiempo real</string>
+    <string name="autoconsumo">Autoconsumo: 92%</string>
+    <string name="energia">Estamos trabajando en mejorar la App. Tus paneles solares siguen produciendo,
+     en breve podrás seguir viendo tu producción solar. Sentimos las molestias.</string>
+</resources>
