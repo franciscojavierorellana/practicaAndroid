@@ -2444,3 +2444,11 @@ Q.idea/sonarlint/securityhotspotstore/c/d/cdd49a77c4815d7f1a89a59ef16315cd1690a1
 Q.idea/sonarlint/securityhotspotstore/c/0/c065f248c3168f5e1908356d364c1ecf93712d45,7\2\72963d46568482a5e71680af33425b88e0c4e00e
 Å
 Q.idea/sonarlint/securityhotspotstore/c/d/cdf73b4773c619e09b72c9a60610658a9eb49d92,d\2\d243078c98eedd54b093d53dfc120bc677afe887
+v
+Fapp/src/main/java/com/example/practicaandroid/data/model/FacturaDao.kt,a\f\af89866d74897a9bd96352bc38601e2eca50489b
+~
+Napp/src/main/java/com/example/practicaandroid/data/model/DetallesFacturaDao.kt,9\6\96cdb5c1acda4ecc31608bae9400b75c455ae99b
+}
+Mapp/src/main/java/com/example/practicaandroid/data/model/DetallesFacturaDb.kt,9\0\909e6bf18447b2d148fb192b7d61147565faffbc
+~
+Napp/src/main/java/com/example/practicaandroid/data/model/DetallesFacturaApp.kt,0\f\0f1643dc33dda2308f96b89697ac5c8287dd5b97

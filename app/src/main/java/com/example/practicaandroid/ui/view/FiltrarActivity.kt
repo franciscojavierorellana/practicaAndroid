@@ -44,9 +44,9 @@ class FiltrarActivity : AppCompatActivity() {
 
         val datePickerDialog = DatePickerDialog(this, DatePickerDialog.OnDateSetListener{view, anyo, mes, dia ->
             val selectedDate = "$dia/${mes + 1}/$anyo"
-            if (button == btnDesde) {
+            if (button.equals(btnDesde)) {
                 btnDesde!!.setText(selectedDate)
-            } else if (button == btnHasta) {
+            } else if (button.equals(btnHasta)) {
                 btnHasta!!.setText(selectedDate)
             }
         }, year, month, day)

@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.practicaandroid.adapter.FacturaAdapter
 import com.example.practicaandroid.data.model.DetallesFactura
+import com.example.practicaandroid.data.model.DetallesFacturaApp
 import com.example.practicaandroid.databinding.ActivityListadoFacturasBinding
 import com.example.practicaandroid.databinding.ActivityMainBinding
 import com.example.practicaandroid.ui.viewModel.FacturaViewModel
@@ -17,6 +18,7 @@ class ListadoFacturas : AppCompatActivity() {
     private lateinit var binding: ActivityListadoFacturasBinding
     private lateinit var adapter: FacturaAdapter
     private val facturaViewModel: FacturaViewModel by viewModels()
+    val app = applicationContext as DetallesFacturaApp
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,6 +29,8 @@ class ListadoFacturas : AppCompatActivity() {
             facturaViewModel.onCreate()
             initRecyclerView(it)
         })
+
+        val detallesFactura = app.room.detallesFacturaDao().getAllFacturas()
 
         binding.consumoButton.setOnClickListener{
             val intent = Intent(this, MainActivity::class.java)
