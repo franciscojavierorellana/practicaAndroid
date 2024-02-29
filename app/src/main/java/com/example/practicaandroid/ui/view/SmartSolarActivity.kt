@@ -15,7 +15,7 @@ class SmartSolarActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivitySmartSolarBinding
 
-    override fun onCreate(savedInstanceState: Bundle?) {
+    /*override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         binding = ActivitySmartSolarBinding.inflate(layoutInflater)
@@ -32,5 +32,5 @@ class SmartSolarActivity : AppCompatActivity() {
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
-    }
+    }*/
 }
