@@ -1,11 +1,13 @@
 
-[kotlin:S1172:"7Use "_" instead of this unused lambda parameter "view".(Ôí›¤şÿÿÿÿ8ùÇßÆß1
-9kotlin:S1128"Remove this unused import.(±Ğ½ø8ıÇßÆß1
->kotlin:S1128	"Remove this unused import.(—ùƒšşÿÿÿÿ8ıÇßÆß1
+[kotlin:S1172<"7Use "_" instead of this unused lambda parameter "view".(Ôí›¤şÿÿÿÿ8ÍçÕËß1
+Ukotlin:S1144H"1Remove this unused private "compareDates" method.(ı’“øøÿÿÿÿ8ë”Íß1
+9kotlin:S1128"Remove this unused import.(±Ğ½ø8ÓçÕËß1
+>kotlin:S1128	"Remove this unused import.(—ùƒšşÿÿÿÿ8ÓçÕËß1
 >kotlin:S1128
-"Remove this unused import.(±Ÿ¿‹úÿÿÿÿ8ıÇßÆß1
-Pkotlin:S65186",Replace function call with indexed accessor.(áğÔûÿÿÿÿ8ÿÇßÆß1
-Pkotlin:S65187",Replace function call with indexed accessor.(€íÙóüÿÿÿÿ8ÿÇßÆß1
-Pkotlin:S65188",Replace function call with indexed accessor.(öÀ¨ƒüÿÿÿÿ8ÿÇßÆß1
-Jkotlin:S6519<"+Replace "equals" with binary operator "==".(•Ş•Ï8ÿÇßÆß1
-Jkotlin:S6519>"+Replace "equals" with binary operator "==".(šãçØ8ÿÇßÆß1
+"Remove this unused import.(±Ÿ¿‹úÿÿÿÿ8ÓçÕËß1
+`kotlin:S6510M"AMove "return" statements from all branches before "if" statement.(åá¬ˆ8ÖçÕËß1
+Pkotlin:S65188",Replace function call with indexed accessor.(áğÔûÿÿÿÿ8×çÕËß1
+Pkotlin:S65189",Replace function call with indexed accessor.(€íÙóüÿÿÿÿ8×çÕËß1
+Pkotlin:S6518:",Replace function call with indexed accessor.(öÀ¨ƒüÿÿÿÿ8×çÕËß1
+Jkotlin:S6519>"+Replace "equals" with binary operator "==".(•Ş•Ï8×çÕËß1
+Jkotlin:S6519@"+Replace "equals" with binary operator "==".(šãçØ8×çÕËß1

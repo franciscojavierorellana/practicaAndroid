@@ -33,6 +33,7 @@ class ListadoFacturas : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityListadoFacturasBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        initRecyclerView(ArrayList())
         facturaViewModel.detallesFacturaModel.observe(this, Observer {
             facturaViewModel.onCreate()
             initRecyclerView(it as MutableList<DetallesFactura>)

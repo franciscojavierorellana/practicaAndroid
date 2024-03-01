@@ -11,7 +11,9 @@ import android.widget.DatePicker
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import com.example.practicaandroid.databinding.FiltrarFacturaBinding
+import java.text.SimpleDateFormat
 import java.util.Calendar
+import java.util.Locale
 
 class FiltrarActivity : AppCompatActivity() {
     private lateinit var binding: FiltrarFacturaBinding
@@ -65,6 +67,18 @@ class FiltrarActivity : AppCompatActivity() {
         }, year, month, day)
 
         datePickerDialog.show()
+    }
+
+    private fun compareDates(): Boolean {
+        val dateFormat = SimpleDateFormat("dd/MM/yyyy", Locale.getDefault())
+        val dateDesde = dateFormat.parse(btnDesde!!.text.toString())
+        val dateHasta = dateFormat.parse(btnHasta!!.text.toString())
+
+        if (dateDesde != null && dateHasta != null && dateHasta.before(dateDesde)) {
+            return true
+        } else {
+            return false
+        }
     }
 
     private fun reseteaFiltros() {
