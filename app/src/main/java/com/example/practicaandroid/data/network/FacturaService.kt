@@ -11,8 +11,7 @@ class FacturaService {
     suspend fun getFacturas():List<DetallesFactura> {
         return withContext(Dispatchers.IO){
             val response = retrofit.create(ApiFacturaClient::class.java).getFacturas()
-            response.body() ?: emptyList()
-        }
+            response.body()?.facturas ?: emptyList()        }
 
     }
 }
