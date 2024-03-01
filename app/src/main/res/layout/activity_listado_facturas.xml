@@ -31,9 +31,9 @@
                     android:textColor="@color/green"/>
 
                 <ImageButton
+                    android:id="@+id/filtroButton"
                     android:layout_width="50sp"
                     android:layout_height="50sp"
-                    android:id="@+id/filtroButton"
                     android:layout_alignParentEnd="true"
                     android:layout_centerInParent="true"
                     android:layout_marginLeft="280dp"

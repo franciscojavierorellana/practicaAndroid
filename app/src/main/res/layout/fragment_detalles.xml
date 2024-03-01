@@ -11,7 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/cau"
-        android:layout_marginLeft="20sp"/>
+        android:layout_marginLeft="20sp"
+        android:textColor="@color/grey"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -22,7 +23,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/estado_solicitud"
-        android:layout_marginLeft="20sp"/>
+        android:layout_marginLeft="20sp"
+        android:textColor="@color/grey"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -33,7 +35,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/tipo_autoconsumo"
-        android:layout_marginLeft="20sp"/>
+        android:layout_marginLeft="20sp"
+        android:textColor="@color/grey"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -44,7 +47,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/excedentes"
-        android:layout_marginLeft="20sp"/>
+        android:layout_marginLeft="20sp"
+        android:textColor="@color/grey"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -55,7 +59,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/potencia_instalacion"
-        android:layout_marginLeft="20sp"/>
+        android:layout_marginLeft="20sp"
+        android:textColor="@color/grey"/>
 
     <EditText
         android:layout_width="match_parent"

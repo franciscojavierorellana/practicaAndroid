@@ -33,13 +33,11 @@ class ListadoFacturas : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityListadoFacturasBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        //initRecyclerView(ArrayList())
+        initRecyclerView(ArrayList())
         facturaViewModel.detallesFacturaModel.observe(this, Observer {
             facturaViewModel.onCreate()
             initRecyclerView(it as MutableList<DetallesFactura>)
         })
-
-        corrutinaFactura()
 
         binding.consumoButton.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
@@ -60,15 +58,16 @@ class ListadoFacturas : AppCompatActivity() {
         binding.rvFacturasList.layoutManager = manager
         binding.rvFacturasList.adapter = adapter
         binding.rvFacturasList.addItemDecoration(decoration)
+        corrutinaFactura()
     }
 
     private fun corrutinaFactura() {
         CoroutineScope(Dispatchers.IO).launch {
-            val llamada = getRetrofit().create(ApiFacturaClient::class.java).getFacturas()
-            val result = llamada.body()
+            val apiFactura = getRetrofit().create(ApiFacturaClient::class.java).getFacturas()
+            val resultado = apiFactura.body()
             runOnUiThread {
-                if (llamada.isSuccessful) {
-                    val factura = result?.facturas ?: emptyList()
+                if (apiFactura.isSuccessful) {
+                    val factura = resultado?.facturas ?: emptyList()
                     facturaViewModel.EliminarFacturasDeBDD()
                     facturaViewModel.insertFacturasFromApi(factura)
                     adapter.facturaList.addAll(factura)

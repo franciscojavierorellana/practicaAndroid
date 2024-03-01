@@ -5,6 +5,7 @@ import android.os.Build
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import android.widget.CheckBox
 import android.widget.DatePicker
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
@@ -35,6 +36,15 @@ class FiltrarActivity : AppCompatActivity() {
             seleccionaFecha(btnHasta!!)
         }
 
+        binding.closeButton.setOnClickListener{
+            reseteaFiltros()
+
+        }
+
+        binding.eliminaFiltros.setOnClickListener{
+            reseteaFiltros()
+        }
+
     }
 
     private fun seleccionaFecha(button: Button) {
@@ -52,5 +62,16 @@ class FiltrarActivity : AppCompatActivity() {
         }, year, month, day)
 
         datePickerDialog.show()
+    }
+
+    private fun reseteaFiltros() {
+        btnDesde!!.setText("dia/mes/año")
+        btnHasta!!.setText("dia/mes/año")
+        binding.sliderFiltrar.value = 1F
+        binding.checkPagada.isChecked = false
+        binding.checkAnulada.isChecked = false
+        binding.checkCuotaFija.isChecked = false
+        binding.checkPendientePago.isChecked = false
+        binding.checkPlanPago.isChecked = false
     }
 }

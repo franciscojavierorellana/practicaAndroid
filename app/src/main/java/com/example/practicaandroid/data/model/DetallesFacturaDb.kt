@@ -10,8 +10,6 @@ import androidx.room.RoomDatabase
     version = 1
 )
 abstract class DetallesFacturaDb : RoomDatabase() {
-    abstract fun detallesFacturaDao(): DetallesFacturaDao
-
     abstract fun DetallesFacturaDao(): DetallesFacturaDao
 
     companion object {

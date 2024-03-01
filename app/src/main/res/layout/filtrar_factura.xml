@@ -19,13 +19,14 @@
                 android:layout_height="wrap_content">
 
                 <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_close_icon"
-                    android:background="@color/white"
+                    android:layout_width="50sp"
+                    android:layout_height="50sp"
+                    android:id="@+id/closeButton"
                     android:layout_alignParentEnd="true"
                     android:layout_centerInParent="true"
-                    android:layout_marginLeft="280dp"/>
+                    android:layout_marginLeft="280dp"
+                    android:background="@color/white"
+                    android:src="@drawable/ic_close_icon" />
             </RelativeLayout>
 
             <TextView
@@ -126,7 +127,8 @@
 
                     <CheckBox
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkPagada"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -143,7 +145,8 @@
 
                     <CheckBox
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkAnulada"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -160,7 +163,8 @@
 
                     <CheckBox
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkCuotaFija"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -177,7 +181,8 @@
 
                     <CheckBox
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkPendientePago"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -194,7 +199,8 @@
 
                     <CheckBox
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkPlanPago"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -220,6 +226,7 @@
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/eliminaFiltros"
                         android:text="@string/eliminarFiltros_boton"
                         android:backgroundTint="@color/grey"
                         android:layout_gravity="center"

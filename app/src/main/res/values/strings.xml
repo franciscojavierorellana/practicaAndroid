@@ -23,8 +23,8 @@
     <string name="atras_smart_solar">Atrás</string>
     <string name="miInstalacion_text">Aquí tienes los datos de tu instalación fotovoltaica en tiempo real</string>
     <string name="autoconsumo">Autoconsumo: 92%</string>
-    <string name="energia">Estamos trabajando en mejorar la App. Tus paneles solares siguen produciendo,
-     en breve podrás seguir viendo tu producción solar. Sentimos las molestias.</string>
+    <string name="energia">Estamos trabajando en mejorar\n la App. Tus paneles solares\n siguen produciendo,
+     en breve\n podrás seguir viendo tu\n producción solar. Sentimos las\n molestias.</string>
     <string name="cau">CAU(Código Autoconsumo)</string>
     <string name="estado_solicitud">Estado solicitud alta autoconsumidor</string>
     <string name="tipo_autoconsumo">Tipo autoconsumo</string>

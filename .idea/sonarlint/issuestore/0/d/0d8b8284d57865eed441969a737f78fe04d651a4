@@ -1,9 +1,10 @@
 
-[kotlin:S1172-"7Use "_" instead of this unused lambda parameter "view".(Ôí›¤şÿÿÿÿ8ÍÑŞ£ß1
-9kotlin:S1128"Remove this unused import.(±Ğ½ø8ÒÑŞ£ß1
->kotlin:S1128"Remove this unused import.(±Ÿ¿‹úÿÿÿÿ8ÓÑŞ£ß1
-Pkotlin:S6518)",Replace function call with indexed accessor.(áğÔûÿÿÿÿ8ÕÑŞ£ß1
-Pkotlin:S6518*",Replace function call with indexed accessor.(€íÙóüÿÿÿÿ8ÕÑŞ£ß1
-Pkotlin:S6518+",Replace function call with indexed accessor.(öÀ¨ƒüÿÿÿÿ8ÕÑŞ£ß1
-Jkotlin:S6519/"+Replace "equals" with binary operator "==".(•Ş•Ï8ÕÑŞ£ß1
-Jkotlin:S65191"+Replace "equals" with binary operator "==".(šãçØ8ÕÑŞ£ß1
+[kotlin:S11727"7Use "_" instead of this unused lambda parameter "view".(Ôí›¤şÿÿÿÿ8ùÇßÆß1
+9kotlin:S1128"Remove this unused import.(±Ğ½ø8ıÇßÆß1
+>kotlin:S1128"Remove this unused import.(—ùƒšşÿÿÿÿ8ıÇßÆß1
+>kotlin:S1128	"Remove this unused import.(±Ÿ¿‹úÿÿÿÿ8ıÇßÆß1
+Pkotlin:S65183",Replace function call with indexed accessor.(áğÔûÿÿÿÿ8ÿÇßÆß1
+Pkotlin:S65184",Replace function call with indexed accessor.(€íÙóüÿÿÿÿ8ÿÇßÆß1
+Pkotlin:S65185",Replace function call with indexed accessor.(öÀ¨ƒüÿÿÿÿ8ÿÇßÆß1
+Jkotlin:S65199"+Replace "equals" with binary operator "==".(•Ş•Ï8ÿÇßÆß1
+Jkotlin:S6519;"+Replace "equals" with binary operator "==".(šãçØ8ÿÇßÆß1
