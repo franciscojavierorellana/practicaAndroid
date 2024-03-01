@@ -27,16 +27,17 @@ class ListadoFacturas : AppCompatActivity() {
             application
         )
     }
-    val app = applicationContext as DetallesFacturaApp
+    private lateinit var app :DetallesFacturaApp
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityListadoFacturasBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        initRecyclerView(ArrayList())
         facturaViewModel.detallesFacturaModel.observe(this, Observer {
             facturaViewModel.onCreate()
             initRecyclerView(it as MutableList<DetallesFactura>)
+            corrutinaFactura()
+            app = applicationContext as DetallesFacturaApp
         })
 
         binding.consumoButton.setOnClickListener {
@@ -58,7 +59,6 @@ class ListadoFacturas : AppCompatActivity() {
         binding.rvFacturasList.layoutManager = manager
         binding.rvFacturasList.adapter = adapter
         binding.rvFacturasList.addItemDecoration(decoration)
-        corrutinaFactura()
     }
 
     private fun corrutinaFactura() {

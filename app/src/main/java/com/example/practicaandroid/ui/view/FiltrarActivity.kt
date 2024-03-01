@@ -1,6 +1,7 @@
 package com.example.practicaandroid.ui.view
 
 import android.app.DatePickerDialog
+import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import android.view.View
@@ -38,6 +39,8 @@ class FiltrarActivity : AppCompatActivity() {
 
         binding.closeButton.setOnClickListener{
             reseteaFiltros()
+            val intent = Intent(this, ListadoFacturas::class.java)
+            startActivity(intent)
 
         }
 
