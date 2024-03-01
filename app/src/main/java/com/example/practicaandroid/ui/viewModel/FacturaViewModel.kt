@@ -8,11 +8,9 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import com.example.practicaandroid.data.model.DetallesFactura
-import com.example.practicaandroid.data.model.DetallesFacturaDao
 import com.example.practicaandroid.data.model.DetallesFacturaDb
 import com.example.practicaandroid.domain.GetFacturaUseCase
 import kotlinx.coroutines.launch
-import java.lang.IllegalArgumentException
 
 class FacturaViewModel (application: Application) : AndroidViewModel(application) {
     private val facturaDao: DetallesFacturaDao

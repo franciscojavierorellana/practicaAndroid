@@ -30,6 +30,6 @@
     <string name="tipo_autoconsumo">Tipo autoconsumo</string>
     <string name="excedentes">Compensación de excedentes</string>
     <string name="potencia_instalacion">Potencia de instalación</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="listado_boton">Listado de Facturas</string>
+    <string name="smartSolar_boton">Smart Solar</string>
 </resources>
